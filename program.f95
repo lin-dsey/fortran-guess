@@ -18,8 +18,8 @@ PROGRAM NUMBERGUESS
  I = INT((RANDOM_MAX - 1.0) * R + 1.0)
  
   WRITE(*,'(A)') 'Hello! Please guess a number between 1 and 10.'
+! Run until correct answer is entered  
  DO   
-! Guess until answer is correct
   WRITE(*,*) ''
 	WRITE(*,'(A)',ADVANCE = 'NO') 'Guess: '
 	READ(*,'(I5)') ANSWER
