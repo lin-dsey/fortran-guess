@@ -3,7 +3,7 @@ PROGRAM NUMBERGUESS
  
  INTEGER, DIMENSION(:),ALLOCATABLE  :: SEED
  INTEGER                            :: ANSWER, I, N, CLOCK, COUNT
- REAL,PARAMETER                     :: RANDOM_MAX = 10	
+ DOUBLE PRECISION,PARAMETER         :: RANDOM_MAX = 10	
  REAL                               :: R 
  
 ! Random number generation:
